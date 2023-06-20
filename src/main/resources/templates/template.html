@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/estilo.css" th:href="@{/css/estilo.css}">
+</head>
+<body>
+
+<!--
+esse é o template geral
+esta em todas as paginas
+apenas pega o "fragmento" de cada pagina especificamente
+essa div abaixo vai ser substituida
+por tudo o que tiver dentro da div com layout:fragment="conteudo" em cada html
+precisa colocar tambem em cada pag o template com layout:decorate="~{template.html} na tag html
+-->
+
+<div layout:fragment="conteudo">
+
+</div>
+
+</body>
+</html>
